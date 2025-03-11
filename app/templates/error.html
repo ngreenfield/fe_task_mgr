@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Error {{ error }}{% endblock title %}
+
+{% block content %}
+<h1>Error {{ error }}</h1>
+<p>The operation you attempted has failed with the following error code: {{ error }}.</p>
+<p>Please try again or contact an administrator if the problem persists.</p>
+{% endblock content %}
